@@ -1,0 +1,64 @@
+{
+  "_from": "loading-layer",
+  "_id": "loading-layer@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-8EKcvSm1MY2rFJYediY9VMV0BLk=",
+  "_location": "/loading-layer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "loading-layer",
+    "name": "loading-layer",
+    "escapedName": "loading-layer",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/loading-layer/-/loading-layer-0.0.1.tgz",
+  "_shasum": "f0429cbd29b5318dab14961e76263d54c57404b9",
+  "_spec": "loading-layer",
+  "_where": "C:\\Users\\ASR74358\\Documents\\workspace-SHARED\\fancy-clock",
+  "author": {
+    "name": "Andres J. Soria R.",
+    "email": "<ajsoriar@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ajsoriar/loading-layer/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "javascript library to manage animations",
+  "devDependencies": {
+    "grunt": "~0.4",
+    "grunt-cleanempty": "^1.0.3",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-uglify": "~0.2.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/ajsoriar/loading-layer#readme",
+  "keywords": [
+    "loading-layer",
+    "loading-spinner",
+    "spinner"
+  ],
+  "license": "MIT",
+  "main": "dist/loading-layer.min.js",
+  "name": "loading-layer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajsoriar/loading-layer.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}

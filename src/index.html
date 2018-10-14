@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fancy Clock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+    <script src="./js/loading-layer/src/loading-layer.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="../node_modules/animation-stepper/dist/animation-stepper.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="clock-wrapper">
+        <div id="clock-content">
+            <div id="clock-circle"></div>
+            <div id="hour"></div>
+            <div id="minute"></div>
+            <div id="second"></div>
+        </div>
+    </div>
+
+    <script>
+
+        init = function(){
+
+            LL.show({
+                bgColor: "black",
+                opacity: 0.7,
+                //shape: "CIRCLE", // CIRCLE, DOUBLE-CIRCLE, DOTS, ...
+                shapeColor1: "#ff0000",
+                shapeOpacity1: 0.5,
+                shapeColor2: "#ff0000",
+                shapeOpacity2: 0.5
+                //maxTime: 10000, // Hide after ...
+                //targetByTagName: "body",
+                //targetByID: "main"
+            });
+
+            LL.hide();
+        
+            AS.init();
+    
+            AS.attachAnimation({
+                stepsNum: 60,
+                milisecondsStep: 100,
+                func: function( _animation ) {
+
+                    clock.tic();
+                    clock.log();
+                    clock.refreshUI();
+                },
+                onStart: function() { 
+
+                },
+                whenFinish: function() {
+
+                }
+            })
+
+            clock.init();
+
+        };
+
+        window.onload = init;
+    
+    </script>
+    
+
+    <!-- Scripts -->
+
+</body>
+
+</html>
