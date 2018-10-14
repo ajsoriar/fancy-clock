@@ -1,0 +1,14 @@
+{
+    "vendor": "ajsoriar",
+    "largeIcon": "largeIcon.png",
+    "icon": "icon.png",
+    "main": "index.html",
+    "id": "com.subidote.fancyclock",
+    "title": "Fancy Clock",
+    "type": "web",
+    "version": "1.0.0",
+    "resolution": "1280x720",
+    "iconColor": "#20124d",
+    "bgColor": "#20124d",
+    "bgImage": "bgImage.png"
+}
