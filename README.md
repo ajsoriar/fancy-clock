@@ -1,2 +1,2 @@
 # fancy-clock
-Smart TV Hosted Web App for demonstration purposes. Will be available for several Smart TV platforms: TIZEN, webOS, Hisense, etc.
+Smart TV Hosted Web App for demonstration purposes. TIZEN, Orsay and webOS
