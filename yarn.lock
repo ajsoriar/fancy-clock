@@ -12,10 +12,10 @@ easter-eggs@^1.1.0:
   resolved "https://registry.yarnpkg.com/easter-eggs/-/easter-eggs-1.1.0.tgz#9d3af11a43ba6a643bf05b4947f222746da958ce"
   integrity sha512-4IOkOgAa5tXmoaBilWQBPkpF6Ch0Tt1Qozlcadfvby0kX6LqySEVbnA9BlSj30zjFdbvnfXoTodOqJrr7U1hpQ==
 
-loading-layer@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/loading-layer/-/loading-layer-1.1.0.tgz#578e6139e32e1b7ae14a09dc02e875b82e280c51"
-  integrity sha512-Eh8ZcUECFVSNOLjpVaKs8S0nd1byn9aL8tINdLtzGUL4iqCasXvOfeFwGgAcR21nhMortW61g043imnu6bGisg==
+loading-layer@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/loading-layer/-/loading-layer-1.1.1.tgz#838e324ff85035413e065d5028390c19ba9aad56"
+  integrity sha512-2qCR4+/ruRo0VWFqutqVxczymTf514dPDs7jxC/Dsfk3r4vXQ6v8U2yFOlC418O3y9SH4IHT7LGLtOYPMKHjpQ==
 
 purple-console@^1.0.1:
   version "1.0.1"

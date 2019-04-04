@@ -12,3 +12,11 @@ function toggleClass(element, className){
     }
     element.className = classString;
 }
+
+function addClass(element, className){
+
+}
+
+function removeClass(element, className){
+
+}

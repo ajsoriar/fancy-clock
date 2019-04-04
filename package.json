@@ -2,7 +2,7 @@
   "dependencies": {
     "animation-stepper": "^0.0.1",
     "easter-eggs": "^1.1.0",
-    "loading-layer": "^1.1.0",
+    "loading-layer": "^1.1.1",
     "purple-console": "^1.0.1"
   }
 }

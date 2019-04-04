@@ -36,12 +36,11 @@
     </div>
 
     <!-- Scripts -->
-    <script src="./js/loading-layer/src/loading-layer.js"></script>
     <script src="./ajsrUtils.js"></script>
     <script src="./js/clock.js"></script>
     <script src="../node_modules/animation-stepper/dist/animation-stepper.js"></script>
     <script src="../node_modules/easter-eggs/dist/easter-eggs.js"></script>
-    <!-- <script src="../node_modules/loading-layer/dist/loading-layer.js"></script> -->
+    <script src="../node_modules/loading-layer/dist/loading-layer.js"></script>
     <script src="../node_modules/purple-console/dist/purple-console.js"></script>
     <!-- Scripts -->
 
@@ -70,9 +69,8 @@
                 stepsNum: 60,
                 milisecondsStep: 100,
                 func: function( _animation ) {
-
                     clock.tic();
-                    clock.log();
+                    //clock.log();
                     clock.refreshUI();
                 },
                 onStart: function() { 
