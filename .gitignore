@@ -16,8 +16,8 @@ bower_components
 .tproject
 *.rar
 .zip
-dist/tizen
-dist/web
+dist/
 .lock
 .sign
 *.wgt
+

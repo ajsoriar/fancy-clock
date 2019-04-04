@@ -6,3 +6,18 @@ animation-stepper@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/animation-stepper/-/animation-stepper-0.0.1.tgz#78593f17116b8d5627c552d80c1f1840e1d83707"
   integrity sha1-eFk/FxFrjVYnxVLYDB8YQOHYNwc=
+
+easter-eggs@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/easter-eggs/-/easter-eggs-1.1.0.tgz#9d3af11a43ba6a643bf05b4947f222746da958ce"
+  integrity sha512-4IOkOgAa5tXmoaBilWQBPkpF6Ch0Tt1Qozlcadfvby0kX6LqySEVbnA9BlSj30zjFdbvnfXoTodOqJrr7U1hpQ==
+
+loading-layer@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/loading-layer/-/loading-layer-1.1.0.tgz#578e6139e32e1b7ae14a09dc02e875b82e280c51"
+  integrity sha512-Eh8ZcUECFVSNOLjpVaKs8S0nd1byn9aL8tINdLtzGUL4iqCasXvOfeFwGgAcR21nhMortW61g043imnu6bGisg==
+
+purple-console@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/purple-console/-/purple-console-1.0.1.tgz#091f0199b82bdb03c9e97c7b4a159bd6a2858373"
+  integrity sha512-uduHyuA4JWRF4/zsmFECtwf55xZEJfS8PrU9zVDhsuzOg+4h7NF+eEQjMZfTRZLTGg7H1qyAgBodwrg7Vrp6QQ==
