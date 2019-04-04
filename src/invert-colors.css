@@ -1,0 +1,40 @@
+
+body.invert{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+    background: rgb(69,72,77); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(186,183,178,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(186,183,178,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(186,183,178,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bab7b2', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+/* ------ */
+
+.invert #clock-content {
+    _border: 1px dashed white;
+}
+
+.invert #clock-circle {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cedce7+0,596a72+100;Grey+3D+%231 */
+    background: rgb(206,220,231); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(50,36,25,1) 0%, rgba(165,148,140,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(50,36,25,1) 0%,rgba(165,148,140,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(50,36,25,1) 0%,rgba(165,148,140,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#322419', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+}
+
+.invert #second { 
+    background: #00ffff;
+}
+
+.invert #minute { 
+    background: #ffb67d;
+}
+
+.invert #hour { 
+    background:#ffffff;
+}
+
+.invert .dot {
+    background-color: #ffffff;
+}

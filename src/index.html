@@ -19,14 +19,16 @@
     <title>Fancy Clock</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="invert-colors.css" />
     
     <script src="./js/loading-layer/src/loading-layer.js"></script>
+    <script src="./ajsrUtils.js"></script>
     <script src="./js/clock.js"></script>
     <script src="../node_modules/animation-stepper/dist/animation-stepper.min.js"></script>
 
 </head>
 
-<body>
+<body class="my-body">
 
     <div id="clock-wrapper">
         <div id="clock-content">
@@ -83,6 +85,19 @@
     
     </script>
     
+    <script>
+
+        document.addEventListener("keydown", function (e) {
+            if (e.keyCode === 13) {  //checks whether the pressed key is "Enter"
+                changeColor(e);
+            }
+        });
+
+        function changeColor(e) {
+            toggleClass(document.body, "invert")
+        }
+
+    </script>
 
     <!-- Scripts -->
 
