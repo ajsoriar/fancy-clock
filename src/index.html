@@ -18,9 +18,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Fancy Clock</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/invert-colors.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../node_modules/loading-layer/dist/loading-layer.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./css/invert-colors.css" />
+    <link rel="stylesheet" type="text/css" href="../node_modules/loading-layer/dist/loading-layer.css" />
+    <link rel="stylesheet" type="text/css" href="../node_modules/flying-canvas/dist/flying-canvas.min.css">
 
 </head>
 
@@ -170,6 +171,21 @@
             console.log("MATCH!!! 3,2,1");
         })
 
+    </script>
+
+
+
+
+    <script src="../node_modules/flying-canvas/dist/flying-canvas.min.js"></script>
+
+    <script>
+        //flyingCanvas.show();
+        flyingCanvas.start({
+            width: 100,
+            height: 200,
+            src: "./my-face.png",
+            showWings: false
+        });
     </script>
 
 </body>
