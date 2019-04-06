@@ -7,10 +7,10 @@ animation-stepper@^0.0.1:
   resolved "https://registry.yarnpkg.com/animation-stepper/-/animation-stepper-0.0.1.tgz#78593f17116b8d5627c552d80c1f1840e1d83707"
   integrity sha1-eFk/FxFrjVYnxVLYDB8YQOHYNwc=
 
-easter-eggs@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/easter-eggs/-/easter-eggs-1.1.0.tgz#9d3af11a43ba6a643bf05b4947f222746da958ce"
-  integrity sha512-4IOkOgAa5tXmoaBilWQBPkpF6Ch0Tt1Qozlcadfvby0kX6LqySEVbnA9BlSj30zjFdbvnfXoTodOqJrr7U1hpQ==
+easter-eggs@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/easter-eggs/-/easter-eggs-1.2.0.tgz#8081ccab740c6fedd88cf2befaca12d348a3ca86"
+  integrity sha512-6Ctim5zjin21nC4x9yG6X3IfbwHCnacP9/a+LnhcHnjlnF3Eac4H8MOezd43haSORjj9s1Tjl0cUr+rngZPTPA==
 
 flying-canvas@^0.0.2:
   version "0.0.2"
