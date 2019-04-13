@@ -12,10 +12,10 @@ easter-eggs@^1.2.0:
   resolved "https://registry.yarnpkg.com/easter-eggs/-/easter-eggs-1.2.0.tgz#8081ccab740c6fedd88cf2befaca12d348a3ca86"
   integrity sha512-6Ctim5zjin21nC4x9yG6X3IfbwHCnacP9/a+LnhcHnjlnF3Eac4H8MOezd43haSORjj9s1Tjl0cUr+rngZPTPA==
 
-flying-canvas@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/flying-canvas/-/flying-canvas-0.0.2.tgz#ff2039363ae8850c911064049366fa2adee637a9"
-  integrity sha512-T8a5PlzBgD7TZ/v7DG8J/nc/08MjCud3rDSVUBoGBQnfgY14G5UFgYf97aBjaTCv/E/eqKe5fbet34pyI05maQ==
+flying-canvas@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/flying-canvas/-/flying-canvas-0.1.0.tgz#b53e825194c560d0213a60bfeb9720594dbb419c"
+  integrity sha512-Ye78YPE0hnAdKtG4dvlt67WqQ6y1yhpJBtZ6uK4lpH2kNTx7By36BebE23RwvXXan3H10+/r5K9lCUHVQdHnXA==
 
 loading-layer@^1.1.1:
   version "1.1.1"

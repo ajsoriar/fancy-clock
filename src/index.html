@@ -167,19 +167,20 @@
 
         EasterEggs.show();
         EasterEggs.addSequence(null,[51,50,49],function(){
-            console.log("MATCH!!! 3,2,1");
+            ajsrConsole.log("MATCH!!! 3,2,1");
             changeColor();
         })
 
-        //flyingCanvas.show();
+    </script>
+
+    <script>
         flyingCanvas.start({
             width: 100,
             height: 200,
-            src: "./my-face.png",
-            showWings: false
+            src: "./void.png",
+            showWings: false,
+            animation: true
         });
     </script>
 
 </body>
-
-</html>
