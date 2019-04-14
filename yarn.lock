@@ -3825,10 +3825,10 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-purple-console@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/purple-console/-/purple-console-1.0.1.tgz#091f0199b82bdb03c9e97c7b4a159bd6a2858373"
-  integrity sha512-uduHyuA4JWRF4/zsmFECtwf55xZEJfS8PrU9zVDhsuzOg+4h7NF+eEQjMZfTRZLTGg7H1qyAgBodwrg7Vrp6QQ==
+purple-console@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/purple-console/-/purple-console-1.1.0.tgz#eb4e4ffe3e2bbe346942aaf7bd393b11208ef3e7"
+  integrity sha512-z6QIM7ryxQMBkgwOBLXNUfAaOYyAVs5JalnQV6Emdd1/RTRSejfG6YmgfrZwMf9sqVM4UghlMLexuRb8613TjA==
 
 q@~0.8.12:
   version "0.8.12"
