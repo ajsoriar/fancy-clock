@@ -19,7 +19,7 @@ module.exports = function(grunt) {
         },
         clean: {
             build: ['build/*'],
-            dist: ['dist/*']
+            //dist: ['dist/*']
         },
         copy: {
             build: {
@@ -29,6 +29,13 @@ module.exports = function(grunt) {
                         '**',
                     ],
                     dest: 'build',
+                    expand: true
+                },{
+                    cwd: './node_modules/flying-canvas/dist',
+                    src: [
+                        '*.png',
+                    ],
+                    dest: 'build/css',
                     expand: true
                 }]
             }
@@ -40,7 +47,8 @@ module.exports = function(grunt) {
                 'build/index.html'
             ],
             options: {
-                dest: 'build/app'
+                //dest: 'build/app'
+                dest: 'build'
             }
         },
         usemin: {
@@ -113,6 +121,7 @@ module.exports = function(grunt) {
         'Compiles all of the assets and copies the files to the build directory.',
         //['clean', 'copy', 'useminPrepare', 'concat:generated', 'cssmin:generated', 'uglify:generated', 'usemin', 'htmlmin']
         ['clean', 'copy', 'useminPrepare', 'concat:generated', 'cssmin:generated', 'uglify:generated', 'usemin']
+        
          //, 'cleanempty'
         //['clean', 'copy'] //, 'useminPrepare', 'concat:generated', 'cssmin:generated', 'uglify:generated', 'usemin', 'htmlmin'] //, 'cleanempty'
         //['clean', 'copy', 'useminPrepare'] //, 'concat:generated']

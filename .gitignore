@@ -17,7 +17,7 @@ bower_components
 *.rar
 .zip
 dist/
+build/
 .lock
 .sign
 *.wgt
-
