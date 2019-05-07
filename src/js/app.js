@@ -62,10 +62,15 @@ function changeColor(e) {
 
 // --- Easter eggs ---
 
-EasterEggs.show();
+//EasterEggs.show();
 EasterEggs.addSequence(null, [51, 50, 49], function () {
-    log.log("MATCH!!! 3,2,1");
+    ajsrConsole.log("MATCH!!! 3,2,1");
     changeColor();
+})
+
+EasterEggs.addSequence(null, [54, 53, 52], function () {
+    ajsrConsole.log("MATCH!!! 6,5,4");
+    //changeColor();
 })
 
 // --- Canvas ---
@@ -73,7 +78,7 @@ EasterEggs.addSequence(null, [51, 50, 49], function () {
 flyingCanvas.start({
     width: 100,
     height: 200,
-    src: "./void.png",
+    src: none,
     showWings: false,
     animation: true
 });
