@@ -24,6 +24,7 @@ init = function () {
             clock.tic();
             //clock.log();
             clock.refreshUI();
+            DigitalClock.showTime();
         },
         onStart: function () {
 
@@ -78,7 +79,7 @@ EasterEggs.addSequence(null, [54, 53, 52], function () {
 flyingCanvas.start({
     width: 100,
     height: 200,
-    src: none,
+    src: null,
     showWings: false,
     animation: true
 });

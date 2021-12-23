@@ -1,0 +1,16 @@
+#clockDisplay {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    border: unset;
+    font-weight: 600;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 28px;
+    padding: 0;
+    height: auto;
+    text-align: center;
+    top: 348px;
+    left: 0;
+    color: rgb(50,50,50);
+}

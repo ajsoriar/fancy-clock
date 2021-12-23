@@ -10,7 +10,6 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-40109647-3');
     </script>
 
@@ -24,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="./css/invert-colors.css" />
     <link rel="stylesheet" type="text/css" href="../node_modules/loading-layer/dist/loading-layer.css" />
     <link rel="stylesheet" type="text/css" href="../node_modules/flying-canvas/dist/flying-canvas.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/digitalClock.css" />
     <!-- endbuild -->
 
     <style>
@@ -57,6 +57,7 @@
     <div id="clock-wrapper">
         <div id="clock-content">
             <div id="clock-circle"></div>
+            <div id="clockDisplay" class="clock">18:20:45</div>
             <div id="hour"></div>
             <div id="minute"></div>
             <div id="second"></div>
@@ -67,6 +68,7 @@
     <script src="./js/requestAnimationFrame.js"></script>
     <script src="./js/ajsrUtils.js"></script>
     <script src="./js/clock.js"></script>
+    <script src="./js/digitalClock.js"></script>
     <script src="../node_modules/animation-stepper/dist/animation-stepper.js"></script>
     <script src="../node_modules/easter-eggs/dist/easter-eggs.js"></script>
     <script src="../node_modules/loading-layer/dist/loading-layer.js"></script>

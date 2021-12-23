@@ -26,5 +26,8 @@
     "flying-canvas": "^0.1.0",
     "loading-layer": "^1.1.1",
     "purple-console": "^1.1.0"
+  },
+  "scripts": {
+    "build": "grunt build"
   }
 }
