@@ -40,5 +40,5 @@ body.invert{
 }
 
 .invert #clockDisplay{
-    color:rgb(221 221 221);
+    color:#dddddd;
 }
