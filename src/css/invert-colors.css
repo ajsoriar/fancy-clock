@@ -38,3 +38,7 @@ body.invert{
 .invert .dot {
     background-color: #ffffff;
 }
+
+.invert #clockDisplay{
+    color:rgb(221 221 221);
+}
